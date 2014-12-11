@@ -79,6 +79,6 @@ Pinteresting::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Required for Heroku
-  # Note to set you to your actual host name
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+  # Note to set this to your actual host name (i.e., 'omr-pinteresting.com') (" , port: 3000 }"" possible)
+  config.action_mailer.default_url_options = { host: 'cr-pinteresting.herokuapp.com' }
 end

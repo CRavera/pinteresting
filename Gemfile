@@ -34,6 +34,7 @@ gem 'devise', '~> 3.4.1'
 # Use SQLite for development and testing
 group :development, :test do
 	gem 'pg'
+	gem 'sqlite3'
 end
 
 group :production do
